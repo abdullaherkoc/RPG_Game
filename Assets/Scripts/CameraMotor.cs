@@ -5,14 +5,22 @@ using UnityEngine;
 
 public class CameraMotor : MonoBehaviour
 {
-    public Transform lookAt;
-    public float boundX = 0.15f;
-    public float boundY = 0.05f;
-    
+    [SerializeField]
+    private Transform lookAt;
+    private float boundX = 0.15f;
+    private float boundY = 0.05f;
+    [SerializeField]
+    private GameObject pl;
 
     private void Start()
     {
-        lookAt = GameObject.Find("Player").transform;
+        pl = GameObject.FindGameObjectWithTag("Fighter");
+        if (pl.name== "Player")
+        {
+            lookAt = pl.transform;
+        }
+       
+        
     }
     private void LateUpdate()
     {

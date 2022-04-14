@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
         }
         instance = this;
+        
         SceneManager.sceneLoaded += LoadState;
         DontDestroyOnLoad(gameObject);
     }
@@ -35,11 +36,13 @@ public class GameManager : MonoBehaviour
     public FloatingTextManager floatingTextManager;
 
     //Logic
+    [Header("LOGIC")]
+
     public int coins;
     public int experience;
 
-
-
+    public GameObject fText;
+   
     public void ShowText(string msg, int fonSize, Color color, Vector3 position, Vector3 motion, float duration)
     {
         floatingTextManager.Show(msg, fonSize, color, position, motion, duration);

@@ -9,9 +9,10 @@ public class Player : Mover
 {
 
     private SpriteRenderer spriteRenderer;
-
+   private FloatingTextManager go;
     protected override void Start()
     {
+     
         base.Start();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -30,6 +31,8 @@ public class Player : Mover
     public void SwapSprite(int skinId)
     {
         spriteRenderer.sprite = GameManager.instance.playerSprites[skinId];
+       
+  
     }
 
     public void OnLevelUp()

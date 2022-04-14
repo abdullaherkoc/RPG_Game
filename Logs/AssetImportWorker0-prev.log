@@ -11,19 +11,19 @@ D:\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Reotek-Mustafa/Desktop/abdullah_ unity/RPG_Game2d
+D:/unity çalısmaları/RPG_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63365
-Successfully changed project path to: C:/Users/Reotek-Mustafa/Desktop/abdullah_ unity/RPG_Game2d
-C:/Users/Reotek-Mustafa/Desktop/abdullah_ unity/RPG_Game2d
+61744
+Successfully changed project path to: D:/unity çalısmaları/RPG_Game
+D:/unity çalısmaları/RPG_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Reotek-Mustafa/Desktop/abdullah_ unity/RPG_Game2d/Assets
+[Subsystems] Discovering subsystems at path D:/unity çalısmaları/RPG_Game/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001365 seconds.
+Registered in 0.001357 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.342 seconds
+- Completed reload, in  2.173 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008812 seconds.
+Registered in 0.004350 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.925 seconds
+- Completed reload, in  1.850 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 101.8 MB.
-System memory in use after: 101.8 MB.
+System memory in use after: 101.9 MB.
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2662.
-Total: 3.100800 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.134500 ms MarkObjects: 2.561100 ms  DeleteObjects: 0.137300 ms)
+Total: 4.732200 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.185300 ms MarkObjects: 3.977100 ms  DeleteObjects: 0.196900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,20 +79,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Collidable.cs
-  artifactKey: Guid(9d9e6eb7e7bc8ef43b02ec93106984ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Collidable.cs using Guid(9d9e6eb7e7bc8ef43b02ec93106984ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e616d390bca14a695b506fdf38dd9dde') in 0.219067 seconds 
-  Import took 0.224186 seconds .
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(a7598028e14f08e458d8613c9a46d2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(a7598028e14f08e458d8613c9a46d2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3369effb87f5335e18bfcc1e7cefd3ec') in 0.092518 seconds 
+  Import took 0.158827 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006932 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
-Platform modules already initialized, skipping
-Shader compiler: UnityShaderCompiler.exe compiler executable disappeared on thread 17360, restarting
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

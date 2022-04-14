@@ -100,6 +100,7 @@ MonoBehaviour:
   hitpoint: 10
   maxHitPoint: 10
   pushRecoverySpeed: 0.2
+  go: {fileID: 2237148478332996744, guid: 257927f0029804f4295d258284d4d568, type: 3}
 --- !u!61 &284840208956908835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -262,7 +263,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  damagePoint: 1
-  force: 2
+  damagePoint: 
+  force: []
   weaponLevel: 0
   spriteRenderer: {fileID: 0}
